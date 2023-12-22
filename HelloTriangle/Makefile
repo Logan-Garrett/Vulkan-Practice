@@ -8,5 +8,8 @@ HelloTriangle: main.cpp
 test: HelloTriangle
 	./HelloTriangle
 
+debug: HelloTriangle
+	gdb ./HelloTriangle
+
 clean:
 	rm -f HelloTriangle
